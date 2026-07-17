@@ -1,31 +1,22 @@
 {
   "name": "solar-sathi",
   "version": "1.0.0",
-  "private": true,
+  "description": "Solar feasibility and ROI calculator MCP server",
   "type": "module",
-  "description": "Create an MCP server named SolarSathi. This MCP server helps Indian homeowners estimate rooftop solar potential. Create the project in Ty…",
+  "main": "build/index.js",
   "scripts": {
-    "dev": "nitrostack-cli dev",
-    "build": "nitrostack-cli build",
-    "start": "npm run build && nitrostack-cli start",
-    "start:prod": "nitrostack-cli start",
-    "upgrade": "nitrostack-cli upgrade",
-    "install:all": "nitrostack-cli install",
-    "widget": "npm --prefix src/widgets"
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts",
+    "test:full-chain": "ts-node examples/solar-full-chain.ts"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "@nitrostack/core": "^1.0.13",
-    "zod": "^3.22.4",
-    "@modelcontextprotocol/ext-apps": ">=0.1.0"
+    "@modelcontextprotocol/sdk": "^0.7.0",
+    "zod": "^3.22.0"
   },
   "devDependencies": {
-    "@nitrostack/cli": "^1.0.14",
-    "@types/node": "^22.10.0",
-    "typescript": "^5.3.3"
-  },
-  "author": "NitroStudio",
-  "nitrostack": {
-    "skillsVersion": "1.0.0"
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
   }
 }

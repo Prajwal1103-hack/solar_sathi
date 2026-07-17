@@ -1,0 +1,16 @@
+{
+  "cost_per_kw": {
+    "min_inr": 55000,
+    "max_inr": 70000,
+    "avg_inr": 62500,
+    "currency": "INR",
+    "description": "Typical installed cost per kW (all-inclusive: panels, inverter, balance of system, labor, permits)"
+  },
+  "regional_multipliers": {
+    "North India": 1.0,
+    "South India": 1.05,
+    "Northeast India": 1.15,
+    "Island Territories": 1.25
+  },
+  "last_updated": "2024-01-15"
+}

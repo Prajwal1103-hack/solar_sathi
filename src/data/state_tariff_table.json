@@ -1,0 +1,26 @@
+{
+  "tariffs": {
+    "Kerala": {
+      "state_code": "KL",
+      "residential_tariff_per_kwh": 7.50,
+      "description": "Kerala Electricity Board tariff (residential)"
+    },
+    "Karnataka": {
+      "state_code": "KA",
+      "residential_tariff_per_kwh": 6.80,
+      "description": "Bangalore Electricity Supply Company tariff"
+    },
+    "Tamil Nadu": {
+      "state_code": "TN",
+      "residential_tariff_per_kwh": 6.50,
+      "description": "Tamil Nadu Electricity Board tariff"
+    },
+    "Maharashtra": {
+      "state_code": "MH",
+      "residential_tariff_per_kwh": 7.20,
+      "description": "Maharashtra State Electricity Distribution Company tariff"
+    }
+  },
+  "last_updated": "2024-01-15",
+  "note": "Tariffs are approximate and subject to change. For exact rates, consult your state DISCOM."
+}

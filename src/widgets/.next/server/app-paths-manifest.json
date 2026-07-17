@@ -1,3 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/solar-estimate/page": "app/solar-estimate/page.js",
+  "/solar-roi/page": "app/solar-roi/page.js"
 }

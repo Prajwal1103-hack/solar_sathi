@@ -1,0 +1,30 @@
+{
+  "subsidy_table": [
+    {
+      "capacity_kw_min": 0,
+      "capacity_kw_max": 3,
+      "subsidy_per_kw": 18000,
+      "description": "Residential ≤3 kW"
+    },
+    {
+      "capacity_kw_min": 3.01,
+      "capacity_kw_max": 10,
+      "subsidy_per_kw": 15000,
+      "description": "Residential 3–10 kW"
+    },
+    {
+      "capacity_kw_min": 10.01,
+      "capacity_kw_max": 100,
+      "subsidy_per_kw": 12000,
+      "description": "Small Commercial/Industrial"
+    },
+    {
+      "capacity_kw_min": 100.01,
+      "capacity_kw_max": 999999,
+      "subsidy_per_kw": 10000,
+      "description": "Large Scale"
+    }
+  ],
+  "last_updated": "2024-01-15",
+  "source": "PM Surya Ghar Muft Bijli Yojana"
+}
