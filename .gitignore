@@ -7,7 +7,20 @@ node_modules/
 # Build outputs
 dist/
 build/
+src/widgets/out/
 
 # Environment variables
 .env
 .env.local
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Nested calculator workspace
+my-server/
+
+# Agent Documentation
+AGENTS/
+
